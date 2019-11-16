@@ -93,3 +93,33 @@ publishing should be rewritten
 
 il wizard ha creato un blobstorage diverso
 DefaultEndpointsProtocol=https;AccountName=mfuncsharpblob
+
+# blob trigger + js
+
+nel wizard di vscode selezionare sempre l'opzione AzureWebJobsStorage
+prima avevo fatto casino con quello step che ha creato un local.settings.json e una
+risorsa su azure inutile e oltrettutto non funzionava l'emulatore perchè nel binding
+del c# aveva hardcodato il nome della risorsa storage mentre deve essere sempre
+AzureWebJobsStorage
+
+In js i binding vanno nel function.json e non negli attributi dell'entrypoint (c#)
+
+To resize the image, you need to add a few NuGet
+packages. The packages that you need to install are
+azure-storage, urijs, stream, jimp, and async. You
+can install these packages using npm i <package
+name>.
+
+npm install azure-storage
+npm install urijs
+npm install stream
+npm install jimp
+npm install async
+
+"dependencies": {
+  "async": "^3.1.0",
+  "azure-storage": "^2.10.3",
+  "jimp": "^0.8.5",
+  "stream": "0.0.2",
+  "urijs": "^1.19.2"
+}

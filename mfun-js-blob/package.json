@@ -1,0 +1,16 @@
+{
+  "name": "mfun-js-blob",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "azure-storage": "^2.10.3",
+    "jimp": "^0.8.5",
+    "stream": "0.0.2",
+    "urijs": "^1.19.2"
+  },
+  "devDependencies": {}
+}
