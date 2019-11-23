@@ -127,3 +127,7 @@ npm install async
 # Func + Db
 
 dotnet add package System.Data.SqlClient --version 4.5.1
+
+# func js + odata
+
+npm install azure-odata-sql async tedious tedious-connection-pool

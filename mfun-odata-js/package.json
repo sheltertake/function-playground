@@ -1,0 +1,15 @@
+{
+  "name": "mfun-odata-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "azure-odata-sql": "^0.2.0",
+    "tedious": "^6.6.2",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {}
+}
