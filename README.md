@@ -123,3 +123,7 @@ npm install async
   "stream": "0.0.2",
   "urijs": "^1.19.2"
 }
+
+# Func + Db
+
+dotnet add package System.Data.SqlClient --version 4.5.1
