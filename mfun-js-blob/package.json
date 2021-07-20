@@ -10,7 +10,7 @@
     "azure-storage": "^2.10.3",
     "jimp": "^0.8.5",
     "stream": "0.0.2",
-    "urijs": "^1.19.2"
+    "urijs": "^1.19.7"
   },
   "devDependencies": {}
 }
